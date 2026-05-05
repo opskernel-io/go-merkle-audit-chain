@@ -2,7 +2,7 @@
 
 Append-only audit chain with SHA-256 hash linking. No storage coupling — the library computes hashes; you store the rows.
 
-Extracted from [hookd](https://github.com/opskernel-io/hookd). Designed for EU AI Act Article 12 audit log integrity.
+Extracted from [hookd](https://github.com/opskernel-io/hookd). This library provides the tamper-evidence layer required by EU AI Act Article 12 — append-only, independently verifiable audit logs. Full Article 12 compliance also requires RFC 3161 timestamping from a qualified TSA and a 6-month retention policy; see [writ](https://writ.opskernel.io) for the complete compliance stack.
 
 ## Installation
 
